@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "itb528Poxms2QNk2RdWA8rkMO21njQy8clzLUPRztWQ=",
+  "Source": "SchoolVaccinationPortalApi",
+  "BasePath": "_content/SchoolVaccinationPortalApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

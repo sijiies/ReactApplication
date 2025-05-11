@@ -1,0 +1,205 @@
+[
+  {
+    "ContainingType": "SchoolVaccinationPortalApi.Controllers.DashboardController",
+    "Method": "AddDrive",
+    "RelativePath": "api/Dashboard/AddDrive",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DTO.Request.AddDriveRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolVaccinationPortalApi.Controllers.DashboardController",
+    "Method": "AddStudent",
+    "RelativePath": "api/Dashboard/AddStudent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DTO.Request.AddStudentRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolVaccinationPortalApi.Controllers.DashboardController",
+    "Method": "EditStudent",
+    "RelativePath": "api/Dashboard/EditStudent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DTO.Request.EditStudentRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolVaccinationPortalApi.Controllers.DashboardController",
+    "Method": "GetDashboardData",
+    "RelativePath": "api/Dashboard/GetDashboard",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolVaccinationPortalApi.Controllers.DashboardController",
+    "Method": "ListDrives",
+    "RelativePath": "api/Dashboard/ListDrives",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolVaccinationPortalApi.Controllers.DashboardController",
+    "Method": "MarkVaccination",
+    "RelativePath": "api/Dashboard/MarkVaccination",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DTO.Request.MarkVaccinationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolVaccinationPortalApi.Controllers.DashboardController",
+    "Method": "ReportFilter",
+    "RelativePath": "api/Dashboard/ReportFilter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolVaccinationPortalApi.Controllers.DashboardController",
+    "Method": "ReportView",
+    "RelativePath": "api/Dashboard/ReportView",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolVaccinationPortalApi.Controllers.DashboardController",
+    "Method": "UpcomingDrive",
+    "RelativePath": "api/Dashboard/UpcomingDrive",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolVaccinationPortalApi.Controllers.DashboardController",
+    "Method": "UpdateDrive",
+    "RelativePath": "api/Dashboard/UpdateDrive",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DTO.Request.UpdateDriveRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolVaccinationPortalApi.Controllers.DashboardController",
+    "Method": "ViewStudent",
+    "RelativePath": "api/Dashboard/ViewStudent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolVaccinationPortalApi.Controllers.DashboardController",
+    "Method": "ViewStudentVaccination",
+    "RelativePath": "api/Dashboard/ViewStudentVaccination",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DTO.Request.ViewStudentVaccinationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolVaccinationPortalApi.Controllers.LoginController",
+    "Method": "Login",
+    "RelativePath": "api/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DTO.Request.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolVaccinationPortalApi.Controllers.TokenController",
+    "Method": "GetToken",
+    "RelativePath": "api/Token/GetToken",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolVaccinationPortalApi.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SchoolVaccinationPortalApi.WeatherForecast, SchoolVaccinationPortalApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
